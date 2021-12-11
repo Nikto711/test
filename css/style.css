@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin: 0px 20px;
+}
+.nav-item .nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+.nav-item .nav-link:hover {
+    color: #F53838;
+}
+.sign-in {
+    font-weight: 500;
+    color: #0B132A;
+    margin-right: 30px;
+}
+.sign-up {
+    color: #F53855;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    padding: 13px 45px;
+    border: 1px solid #F53838;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.sign-up:hover {
+    background: #F53855;
+    color: #fff;
+}
+.header {
+    padding: 45px 0px;
+}
+/* =========
+Hero
+============ */
+.row.hero {
+    padding: 40px 0;
+}
+.hero > div {
+    height: 400px;
+}
+.hero-content {
+    width: 555px;
+}
+.hero-content .hero-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+.hero-content .hero-title span {
+    font-weight: 700;
+}
+.hero-text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 50px;
+}
+.hero-link {
+    background: #F53838;
+    color: #fff;
+    border-radius: 10px;
+    padding: 18px 78px;
+    font-weight: bold;
+    box-shadow: 0px 25px 29px -19px #F53838;
+}
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stats {
+    margin-top: 100px;
+    padding: 67px 90px;
+    box-shadow: 0px 20px 60px #00000017;
+}
+.stats > div {
+    display: flex;
+}
+.stats > div > div {
+    margin-left: 36px;
+}
+.border {
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+    padding: 0px 113px;
+}
